@@ -12,6 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses:
+      - uses: nikitasavinov/checkstyle-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
